@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página didática de streaming com Flexbox e CSS puro.">
+  <title>CINEFLEX — Flexbox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+<header class="site-header">
+  <a class="brand" href="#inicio" aria-label="CINEFLEX, início">CINEFLEX</a>
+  <nav aria-label="Navegação principal">
+    <a href="#inicio">Início</a><a href="#colecao">Filmes</a><a href="#aventura">Descobertas</a><a href="#detalhes">Todos os títulos</a>
+  </nav>
+  <a class="profile" href="#sobre" aria-label="Informações da demonstração">IP</a>
+</header>
+<main id="conteudo">
+  <section id="inicio" class="hero" aria-labelledby="hero-title">
+    <img class="hero-image" src="../assets/mountain.jpg" alt="" fetchpriority="high" width="1600" height="900">
+    <div class="hero-content">
+      <p class="eyebrow">SÉRIE ORIGINAL CINEFLEX</p>
+      <h1 id="hero-title">Além do Horizonte</h1>
+      <p class="hero-meta">2026 <span>12</span> Aventura <span>4K</span></p>
+      <p class="hero-description">Onde o caminho termina, uma nova história começa. Descubra paisagens, encontros e escolhas que mudam tudo.</p>
+      <div class="actions">
+        <a class="button primary" href="#titulo-0">Conhecer a história</a>
+        <a class="button secondary" href="#colecao">Explorar catálogo</a>
+      </div>
+      <p class="hero-note">Novas histórias para a sua lista</p>
+    </div>
+  </section>
+<section class="collection" id="colecao" aria-labelledby="colecao-title"><div class="section-heading"><h2 id="colecao-title">Em alta agora</h2><a href="#detalhes">Ver todos</a></div><div class="catalog"><article class="card">
+  <a class="poster" href="#titulo-0" aria-label="Ver detalhes de Além do Horizonte">
+    <img src="../assets/mountain.jpg" alt="" loading="lazy" width="640" height="360">
+    <span class="poster-title">Além do Horizonte</span>
+    <span class="genre">Aventura</span>
+  </a>
+  <h3>Além do Horizonte</h3>
+  <p class="meta">2026 <span>12</span> Aventura</p>
+</article><article class="card">
+  <a class="poster" href="#titulo-1" aria-label="Ver detalhes de Cidade sem Sono">
+    <img src="../assets/city.jpg" alt="" loading="lazy" width="640" height="360">
+    <span class="poster-title">Cidade sem Sono</span>
+    <span class="genre">Suspense</span>
+  </a>
+  <h3>Cidade sem Sono</h3>
+  <p class="meta">2025 <span>14</span> Suspense</p>
+</article><article class="card">
+  <a class="poster" href="#titulo-2" aria-label="Ver detalhes de O Último Refúgio">
+    <img src="../assets/forest.jpg" alt="" loading="lazy" width="640" height="360">
+    <span class="poster-title">O Último Refúgio</span>
+    <span class="genre">Drama</span>
+  </a>
+  <h3>O Último Refúgio</h3>
+  <p class="meta">2026 <span>12</span> Drama</p>
+</article><article class="card">
+  <a class="poster" href="#titulo-3" aria-label="Ver detalhes de Terra de Silêncios">
+    <img src="../assets/desert.jpg" alt="" loading="lazy" width="640" height="360">
+    <span class="poster-title">Terra de Silêncios</span>
+    <span class="genre">Aventura</span>
+  </a>
+  <h3>Terra de Silêncios</h3>
+  <p class="meta">2025 <span>10</span> Aventura</p>
+</article><article class="card">
+  <a class="poster" href="#titulo-4" aria-label="Ver detalhes de Mar Aberto">
+    <img src="../assets/coast.jpg" alt="" loading="lazy" width="640" height="360">
+    <span class="poster-title">Mar Aberto</span>
+    <span class="genre">Documentário</span>
+  </a>
+  <h3>Mar Aberto</h3>
+  <p class="meta">2026 <span>Livre</span> Documentário</p>
+</article><article class="card">
+  <a class="poster" href="#titulo-5" aria-label="Ver detalhes de Entre Estrelas">
+    <img src="../assets/night.jpg" alt="" loading="lazy" width="640" height="360">
+    <span class="poster-title">Entre Estrelas</span>
+    <span class="genre">Ficção</span>
+  </a>
+  <h3>Entre Estrelas</h3>
+  <p class="meta">2026 <span>12</span> Ficção</p>
+</article></div></section>
+<section class="collection" id="aventura" aria-labelledby="aventura-title"><div class="section-heading"><h2 id="aventura-title">Aventura e descobertas</h2><a href="#detalhes">Ver todos</a></div><div class="catalog"><article class="card">
+  <a class="poster" href="#titulo-3" aria-label="Ver detalhes de Terra de Silêncios">
+    <img src="../assets/desert.jpg" alt="" loading="lazy" width="640" height="360">
+    <span class="poster-title">Terra de Silêncios</span>
+    <span class="genre">Aventura</span>
+  </a>
+  <h3>Terra de Silêncios</h3>
+  <p class="meta">2025 <span>10</span> Aventura</p>
+</article><article class="card">
+  <a class="poster" href="#titulo-4" aria-label="Ver detalhes de Mar Aberto">
+    <img src="../assets/coast.jpg" alt="" loading="lazy" width="640" height="360">
+    <span class="poster-title">Mar Aberto</span>
+    <span class="genre">Documentário</span>
+  </a>
+  <h3>Mar Aberto</h3>
+  <p class="meta">2026 <span>Livre</span> Documentário</p>
+</article><article class="card">
+  <a class="poster" href="#titulo-5" aria-label="Ver detalhes de Entre Estrelas">
+    <img src="../assets/night.jpg" alt="" loading="lazy" width="640" height="360">
+    <span class="poster-title">Entre Estrelas</span>
+    <span class="genre">Ficção</span>
+  </a>
+  <h3>Entre Estrelas</h3>
+  <p class="meta">2026 <span>12</span> Ficção</p>
+</article><article class="card">
+  <a class="poster" href="#titulo-6" aria-label="Ver detalhes de Dias de Inverno">
+    <img src="../assets/lake.jpg" alt="" loading="lazy" width="640" height="360">
+    <span class="poster-title">Dias de Inverno</span>
+    <span class="genre">Drama</span>
+  </a>
+  <h3>Dias de Inverno</h3>
+  <p class="meta">2025 <span>10</span> Drama</p>
+</article><article class="card">
+  <a class="poster" href="#titulo-7" aria-label="Ver detalhes de A Última Sessão">
+    <img src="../assets/cinema.jpg" alt="" loading="lazy" width="640" height="360">
+    <span class="poster-title">A Última Sessão</span>
+    <span class="genre">Drama</span>
+  </a>
+  <h3>A Última Sessão</h3>
+  <p class="meta">2024 <span>12</span> Drama</p>
+</article><article class="card">
+  <a class="poster" href="#titulo-0" aria-label="Ver detalhes de Além do Horizonte">
+    <img src="../assets/mountain.jpg" alt="" loading="lazy" width="640" height="360">
+    <span class="poster-title">Além do Horizonte</span>
+    <span class="genre">Aventura</span>
+  </a>
+  <h3>Além do Horizonte</h3>
+  <p class="meta">2026 <span>12</span> Aventura</p>
+</article></div></section>
+<section id="detalhes" class="details-section" aria-labelledby="detalhes-title"><h2 id="detalhes-title">Sobre os títulos</h2><p>Selecione um título para ler a sinopse.</p><details id="titulo-0" class="detail">
+  <summary>Além do Horizonte <span>Aventura · 2026</span></summary>
+  <p>Uma expedição encontra novos caminhos entre montanhas e antigas histórias.</p><p>Classificação indicativa: 12. Catálogo fictício para demonstração.</p>
+</details><details id="titulo-1" class="detail">
+  <summary>Cidade sem Sono <span>Suspense · 2025</span></summary>
+  <p>Uma jornalista segue pistas que mudam sua forma de enxergar a cidade.</p><p>Classificação indicativa: 14. Catálogo fictício para demonstração.</p>
+</details><details id="titulo-2" class="detail">
+  <summary>O Último Refúgio <span>Drama · 2026</span></summary>
+  <p>Uma família reencontra suas raízes em uma floresta distante.</p><p>Classificação indicativa: 12. Catálogo fictício para demonstração.</p>
+</details><details id="titulo-3" class="detail">
+  <summary>Terra de Silêncios <span>Aventura · 2025</span></summary>
+  <p>Uma travessia pelo deserto revela encontros inesperados.</p><p>Classificação indicativa: 10. Catálogo fictício para demonstração.</p>
+</details><details id="titulo-4" class="detail">
+  <summary>Mar Aberto <span>Documentário · 2026</span></summary>
+  <p>Paisagens e histórias de quem vive junto ao oceano.</p><p>Classificação indicativa: Livre. Catálogo fictício para demonstração.</p>
+</details><details id="titulo-5" class="detail">
+  <summary>Entre Estrelas <span>Ficção · 2026</span></summary>
+  <p>Uma viagem pelos mistérios do céu e pelas escolhas de seus exploradores.</p><p>Classificação indicativa: 12. Catálogo fictício para demonstração.</p>
+</details><details id="titulo-6" class="detail">
+  <summary>Dias de Inverno <span>Drama · 2025</span></summary>
+  <p>Uma pequena comunidade transforma uma despedida em um novo começo.</p><p>Classificação indicativa: 10. Catálogo fictício para demonstração.</p>
+</details><details id="titulo-7" class="detail">
+  <summary>A Última Sessão <span>Drama · 2024</span></summary>
+  <p>Um antigo cinema guarda lembranças de toda uma cidade.</p><p>Classificação indicativa: 12. Catálogo fictício para demonstração.</p>
+</details></section></main><footer id="sobre"><strong>CINEFLEX</strong><p>Demonstração educacional inspirada no estilo visual da Netflix. Os títulos são fictícios.</p><p>Layout com Flexbox. HTML semântico e CSS puro, sem bibliotecas ou JavaScript. Fotografias: Unsplash. Créditos no arquivo LEIA-ME.</p></footer>
+</body></html>
